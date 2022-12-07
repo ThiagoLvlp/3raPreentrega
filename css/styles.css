@@ -1,0 +1,45 @@
+main .bg-tras {
+  background-color: rgba(0, 0, 0, 0.63); }
+
+main .bg-gris {
+  background-image: url(../assets/img/galeria3.jpg);
+  opacity: 0.8;
+  margin-top: 1rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media (min-width: 992px) {
+  .fotocarrusel {
+    width: 100%; } }
+
+@media (max-width: 576px) {
+  header nav div img {
+    width: 50%; }
+  header nav div .fotocarrusel {
+    width: 50rem;
+    height: auto; } }
+
+.bg-galeria {
+  background-image: url(../assets/img/tomates.jpg);
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+main .bg-contacto {
+  background-image: url(../assets/img/galeria9.jpg);
+  background-size: cover;
+  background-position: 50%;
+  margin-top: 0%; }
+  main .bg-contacto .card {
+    background-color: rgba(0, 0, 0, 0.63) !important; }
+
+.uf {
+  background-image: url(../assets/img/lechuga.jpg);
+  background-size: cover; }
+
+main div div .fotocarrusel {
+  width: 100%; }
